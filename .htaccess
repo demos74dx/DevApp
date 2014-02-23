@@ -1,0 +1,2 @@
+redirect 301 / /window.html
+redirect 301 /index.html /window.html
