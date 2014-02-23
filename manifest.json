@@ -1,0 +1,12 @@
+{
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "manifest_version": 2,
+  "name": "DevApp",
+  "version": "0.1",
+  "description": "Environment management made easy.",
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+}

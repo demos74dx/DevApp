@@ -1,0 +1,5 @@
+@media (min-width: 992px) {
+  .col-sm-4 > .panel > .panel-body {
+    min-height: 380px;
+  }
+}
