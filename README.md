@@ -2,6 +2,7 @@ DevApp
 ======
 You can see a preview on gh-pages http://demos74dx.github.io/DevApp/
 <br/>
+It will look slightly different due to fluid widths, the app runs at 1200x600px.
 This project uses Chrome Apps, here's how to make it work:
 <ol>
 <li>Clone it</li>
@@ -16,5 +17,4 @@ This project uses Chrome Apps, here's how to make it work:
 <li>It should now be installed under your Program Files->Chrome Apps</li>
 <li>or you can open a new tab and hit the new apps bookmark and pull it up from there.</li>
 </ol>
-<br/>
 From here you don't need to keep Loading the unpacked extension, changes are made immediately.
