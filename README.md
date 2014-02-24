@@ -3,6 +3,7 @@ DevApp
 You can see a preview on gh-pages http://demos74dx.github.io/DevApp/
 <br/>
 It will look slightly different due to fluid widths, the app runs at 1200x600px.
+<br/>
 This project uses Chrome Apps, here's how to make it work:
 <ol>
 <li>Clone it</li>
