@@ -17,6 +17,10 @@
   padding-left: 0px;
 }
 
+.btn{
+	margin: 7.5px;
+}
+
 .bottom{
   position: absolute;
   bottom: 0;
