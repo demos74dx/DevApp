@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DevApp</title>
 
-    <!-- Bootstrap -->
+    <link href="css/devapp.css" rel="stylesheet">
+	<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/devapp.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/metro-bootstrap.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,65 +18,56 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-	<div style="width:auto; height:auto; padding:7.5px; background:gainsboro">
-		<div class="container-fluid" style="padding:0">
-		<div class="row-fluid">
-			<div class="col-md-12">
-				<h2 style="margin:0; padding: 7.5px">DevApp</h2>
-				<!--top, right, bottom, left-->
-				<button class="glyphicon glyphicon-briefcase btn btn-default" type="button">
-					<span>GitHub Organization</span>
-				</button>
-				<button class="glyphicon glyphicon-user btn btn-default" type="button">
-					<span>GitHub User</span>
-				</button>
+  <body class="metro">
+    <nav class="navigation-bar dark">
+		<nav class="navigation-bar-content">
+			<div class="element">
+				<a class="dropdown-toggle" href="#">DevApp</a>
+				<ul class="dropdown-menu" data-role="dropdown">
+					<li><a href="#">Main</a></li>
+				</ul>
 			</div>
-		</div>
-	</div>
-	<div class="container-fluid" style="padding:0">
+			<span class="element-divider"></span>
+			<a class="element brand" href="#"><span class="icon-github-2"> GitHub Organization</span></a>
+			<span class="element-divider"></span>
+			<a class="element brand" href="#"><span class="icon-github"> GitHub User</span></a>
+		</nav>
+    </nav>
+	<div class="container-fluid">
 		<div class="row-fluid">
-				<div class="col-md-4 pad-col">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title">Development</h3>
-						</div>
-						<div class="panel-body">
-							<button class="glyphicon glyphicon-cloud-upload btn btn-lg btn-default" type="button">
-								Create New Project
-							</button>
-							<button class="glyphicon glyphicon-plus btn btn-lg btn-default" type="button">
-								<span>Add Existing Project</span>
-							</button>
-						</div>
+			<div class="col-md-4 pad-col">
+				<div class="panel">
+					<div class="panel-header">Development</div>
+					<div class="panel-content">
+						<button><i class="icon-cube on-left"></i>Create New Project</button>
+						<button><i class="icon-plus on-left"></i>Add Existing Project</button>
 					</div>
 				</div>
-				<div class="col-md-4 pad-col">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title">Stage</h3>
-						</div>
-						<div class="panel-body">
-						</div>
+			</div>
+			<div class="col-md-4 pad-col">
+				<div class="panel">
+					<div class="panel-header">Stage</div>
+					<div class="panel-content">
 					</div>
 				</div>
-				<div class="col-md-4 pad-col">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title">Production</h3>
-						</div>
-						<div class="panel-body">
-						</div>
+			</div>
+			<div class="col-md-4 pad-col">
+				<div class="panel">
+					<div class="panel-header">Production</div>
+					<div class="panel-content">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
-	<script src="js/jquery-1.11.0.min.js"></script>
+	<!-- Le javascript
+	================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery/jquery.widget.min.js"></script>
+	<script src="js/jquery/jquery-2.1.0.min.js"></script>
+	<script src="js/metro/metro.min.js"></script>
   </body>
 </html>
