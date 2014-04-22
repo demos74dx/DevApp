@@ -1,0 +1,9 @@
+diff a/README.md b/README.md	(rejected hunks)
+@@ -1,6 +1,6 @@
+ DevApp
+ ======
+-You can see a preview on gh-pages http://demos74dx.github.io/DevApp/
++You can see a preview on gh-pages http://devapp2450.github.io/DevApp/
+ <br/>
+ It will look slightly different due to fluid widths, the app runs at 1200x600px.
+ <br/>
